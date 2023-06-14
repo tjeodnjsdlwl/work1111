@@ -1,0 +1,49 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+
+    .col-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 100px;
+        // @include tablet{
+        //     // display: none;
+        // }
+        // @include mobile{
+        //     // display: block;
+        // }
+        .close{
+            width: 40px;
+            height: 40px;
+        }
+        .txt-wrap{
+            font-size: 18px;
+            font-weight: 700;
+            transform: rotate(180deg);
+            writing-mode: vertical-rl ;
+        }
+    }
+    .top-btn{
+        display: flex;
+        gap: 10px;
+        .btn{
+            height: 45px;
+            border: 2px solid var(--color-green1);
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 0 30px;
+            &.home{display: block;
+                // @include ellipse;
+            }
+            &.about{display: block;
+                // @include ellipse;
+            }
+        }
+    }
+}
+

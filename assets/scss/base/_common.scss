@@ -1,0 +1,43 @@
+/* 접근성고려한 텍스트숨기기 */
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* 중심영역 */
+.inner{
+    padding:30px;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+
+/* 작은피씨 */
+@media (max-width:1200px) {
+
+   
+
+}
+
+/* 테블릿 */
+@media (max-width:1024px) {
+
+   
+
+}
+
+/* 모바일 */
+@media (max-width:767px) {
+    
+   
+}
+
+
+
